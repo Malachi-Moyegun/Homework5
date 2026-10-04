@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border-bottom: 3px solid #262930;
+    background-color: #ebc4bf;
+    color: #262930;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e8f1f2;
+    color: #1b1b1b;
+    min-height: 1200px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #262930;
+    color: #ffffff;
+}
+
+p {
+    padding: 1em;
+}
